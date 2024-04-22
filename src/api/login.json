@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "ea29",
+      "name": "akshay dhivare",
+      "email": "akshay@gmail.com",
+      "pass": "akshay123"
+    },
+    {
+      "id": "adac",
+      "name": "Jameson Ellis",
+      "email": "dyfe@mailinator.com",
+      "pass": "Velit esse consequat"
+    },
+    {
+      "id": "a0f6",
+      "name": "Amethyst Chan",
+      "email": "lulyxad@mailinator.com",
+      "pass": "Sint possimus est s"
+    },
+    {
+      "id": "5ace",
+      "name": "Chanda Valentine",
+      "email": "qacih@mailinator.com",
+      "pass": "Fugiat sunt ut et "
+    },
+    {
+      "id": "d74d",
+      "name": "Craig Farmer",
+      "email": "qogyg@mailinator.com",
+      "pass": "Dolore odit omnis qu"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+// app global css in SCSS form
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+#q-app,
+.q-layout .q-layout--standard,
+.login-box {
+  background-color: #f8fcf8 !important;
+}
