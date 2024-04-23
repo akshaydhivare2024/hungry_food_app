@@ -106,4 +106,17 @@ function filterCategory(selectedCategory) {
   background-color: #DDEEDE !important;
   font-weight: 800;
 }
+
+q-card:hover .q-card {
+  overflow: hidden !important;
+
+}
+
+.q-img {
+  transition: all .2s ease-in-out;
+}
+
+.q-img:hover {
+  transform: scale(1.2);
+}
 </style>

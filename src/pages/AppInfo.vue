@@ -26,9 +26,6 @@
       <p class="text-weight-bold text-grey bg-white  q-pa-md">Akshay Dhivare</p>
     </transition>
 
-
-
-
     <transition appear enter-active-class="animated slower fadeInLeft" leave-active-class="animated fadeInLeft">
       <p class="text-weight-bold text-h6  q-px-md ">Description :</p>
     </transition>

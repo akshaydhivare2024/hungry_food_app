@@ -17,10 +17,10 @@
         <q-table class="my-sticky-dynamic shadow-7" rounded bordered title=" ITEMS :" :rows="rows" :columns="columns"
           :loading="loading" row-key="id" virtual-scroll :virtual-scroll-item-size="48"
           :virtual-scroll-sticky-size-start="48" :pagination="pagination" :rows-per-page-options="[0]"
-          @virtual-scroll="onScroll" style="border-radius: 25px;">
+          @virtual-scroll="onScroll" style="border-radius: 25px; max-height: 430px;">
           <template v-slot:body-cell-image="props">
             <q-td :props="props">
-              <img :src="props.row.src" alt="Item" style="max-height: 70px;">
+              <img :src="props.row.src" alt="Item" style="max-height: 50px;">
             </q-td>
           </template>
           <template v-slot:body-cell-delete-item="props">

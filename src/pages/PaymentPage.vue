@@ -12,7 +12,7 @@
       <div class="col-12 q-pa-md text-center">
         <transition appear enter-active-class="animated slower zoomIn" leave-active-class="zoomIn">
           <q-img src="https://cdn-icons-png.flaticon.com/512/1019/1019607.png" spinner-color="white"
-            style=" width: 50%; margin-bottom: 30px; " />
+            style=" width: 50%; margin-bottom: 30px; " class="" />
         </transition>
       </div>
       <transition appear enter-active-class="animated slower zoomIn" leave-active-class="zoomIn">
@@ -88,8 +88,8 @@ const generateBillContent = () => {
     { text: 'Your order has been successfully processed. Thank you for choosing "Hungry" ! We hope you enjoy your meal. Please visit us again soon for more delicious options!', fontSize: 14, bold: true, margin: [0, 10] },
     // { image: '../assets/logo.png', alignment: 'center', width: 50, margin: [0, 20] }, // Company stamp image
     // { image: '../assets/logo.png', alignment: 'center', width: 550, margin: [0, 20] } // Signature image
-    { image: 'https://example.com/path-to-company-logo.png', alignment: 'center', width: 100, margin: [0, 20] }, // Company logo
-    { image: 'https://example.com/path-to-signature.png', alignment: 'center', width: 150, margin: [0, 20] } // Signature
+    // { image: 'https://example.com/path-to-company-logo.png', alignment: 'center', width: 100, margin: [0, 20] }, // Company logo
+    // { image: 'https://example.com/path-to-signature.png', alignment: 'center', width: 150, margin: [0, 20] } // Signature
 
   ];
 
@@ -113,12 +113,14 @@ const downloadBill = async () => {
     const content = generateBillContent();
     const docDefinition = { content };
 
-    const pdfDoc = pdfMake.createPdf(docDefinition).open();
+    const pdfDoc = pdfMake.createPdf(docDefinition);
 
+    const timestamp = Date.now(); // Generate a unique timestamp for the file name
+    const fileName = `Hungry_Invoice_${timestamp}.pdf`;
 
     const pdfBase64 = pdfDoc.getBase64(async (data) => {
       await Filesystem.writeFile({
-        path: 'Hungry_Invoice.pdf',
+        path: fileName,
         data: data,
         directory: Directory.Documents,
         // encoding: Encoding.UTF8,
