@@ -1,0 +1,1 @@
+import{a5 as c,r as a}from"./index.ada0ae87.js";const l=c("cart",()=>{let r=a(0);const e=a([]),u=a(!1);function n(){r.value=e.value.reduce((o,t)=>o+t.price,0)}return{addCart:e,removeCart:o=>{const t=e.value.findIndex(s=>s.id===o);t!==-1&&(e.value.splice(t,1),n())},totalAmount:r,updateTotalAmount:n,showMenubar:u}});export{l as u};
