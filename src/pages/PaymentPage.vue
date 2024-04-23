@@ -40,7 +40,8 @@
 import useCartStore from 'src/stores/cart';
 import { useRouter } from 'vue-router';
 import pdfMake from 'pdfmake/build/pdfmake';
-import * as pdfFonts from 'pdfmake/build/vfs_fonts';
+// import pdfFonts from "./vfs_fonts";
+
 import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
 import { useQuasar } from 'quasar'
 const $q = useQuasar();
@@ -53,7 +54,9 @@ const store = useCartStore();
 const totalAmount = store.totalAmount;
 const cartItem = store.addCart;
 
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
+// pdfMake.vfs = pdfFonts.pdfMake.vfs;
+// ppdfMake.vfs = pdfFonts;
+
 
 
 const generateBillContent = () => {
