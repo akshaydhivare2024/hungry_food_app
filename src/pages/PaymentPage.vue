@@ -40,7 +40,7 @@
 import useCartStore from 'src/stores/cart';
 import { useRouter } from 'vue-router';
 import pdfMake from 'pdfmake/build/pdfmake';
-import pdfFonts from 'pdfmake/build/vfs_fonts';
+import * as pdfFonts from 'pdfmake/build/vfs_fonts';
 import { Filesystem, Directory, Encoding } from '@capacitor/filesystem';
 import { useQuasar } from 'quasar'
 const $q = useQuasar();
