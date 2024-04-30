@@ -15,7 +15,7 @@
       <div class="col-md-6 col-xs-12 order-1 q-pa-md">
         <transition appear enter-active-class="animated slower fadeInRight" leave-active-class="fadeInRight">
           <div>
-            <q-img src="../assets/banner-img.png" spinner-color="white" style=" width: 100%; " />
+            <q-img src="../assets/banner-img.png" spinner-color="white" style=" width: 80%; " />
           </div>
         </transition>
       </div>

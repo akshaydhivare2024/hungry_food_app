@@ -6,7 +6,8 @@ const menuList = [
     name: "Mango Lassi",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Mango Lassi is a refreshing Indian drink made with ripe mangoes, yogurt, milk, sugar, and a hint of cardamom. It's a perfect blend of sweet and tangy flavors, with a creamy texture that's both satisfying and indulgent. This simple recipe can be customized to your taste preferences, whether you prefer it thicker or thinner, sweeter or less sweet. Enjoy it as a cooling treat on a hot day or as a delightful accompaniment to any meal.",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ const menuList = [
     name: "Stawberry Lassi",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const menuList = [
     name: "Almond Milk",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ const menuList = [
     name: "Banana Smoothie",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ const menuList = [
     name: "Cold Coffee",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ const menuList = [
     name: "Aam Panna",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ const menuList = [
     name: "Buttermilk",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ const menuList = [
     name: "Creamy Banana Avocado",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ const menuList = [
     name: "Shikanji Limbu",
     category: "drink",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ const menuList = [
     name: "Chicken Spring Rolls",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ const menuList = [
     name: "Egg-65",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ const menuList = [
     name: "Chicken Patties",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ const menuList = [
     name: "Chicken Manchurian",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ const menuList = [
     name: "Chilli Prawns",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ const menuList = [
     name: "Fish And Chicken Pakora",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 16,
@@ -141,7 +156,8 @@ const menuList = [
     name: "Seekh Kebabs",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 17,
@@ -150,7 +166,8 @@ const menuList = [
     name: "Keema Samosa",
     category: "starter",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 18,
@@ -159,7 +176,8 @@ const menuList = [
     name: "Potato Soup",
     category: "soup",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 19,
@@ -168,7 +186,8 @@ const menuList = [
     name: "Roasted Red Pepper Carrot",
     category: "soup",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 20,
@@ -177,7 +196,8 @@ const menuList = [
     name: "Sweet Corn",
     category: "soup",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 21,
@@ -186,7 +206,8 @@ const menuList = [
     name: "Butter Chicken",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 22,
@@ -195,7 +216,8 @@ const menuList = [
     name: "Chicken 65",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 23,
@@ -204,7 +226,8 @@ const menuList = [
     name: "fried chicken",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 24,
@@ -213,7 +236,8 @@ const menuList = [
     name: "Grilled Chicken",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 25,
@@ -222,7 +246,8 @@ const menuList = [
     name: "Prawn Curry",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 26,
@@ -231,7 +256,8 @@ const menuList = [
     name: "Veg Biryani",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 27,
@@ -240,7 +266,8 @@ const menuList = [
     name: "Kadai Chicken",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 29,
@@ -249,7 +276,8 @@ const menuList = [
     name: "Patta-Gobi-Subzi",
     category: "lunch / dinner",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 30,
@@ -258,7 +286,8 @@ const menuList = [
     name: "Gulab-jamun-custard",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 31,
@@ -267,7 +296,8 @@ const menuList = [
     name: "Kesar-Elaichi-Shrikhand",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 32,
@@ -276,7 +306,8 @@ const menuList = [
     name: "Sheer-Khurma",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 33,
@@ -285,7 +316,8 @@ const menuList = [
     name: "Gajar-ka-Halwa",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 34,
@@ -294,7 +326,8 @@ const menuList = [
     name: "Orange-Semolina-Cake",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 35,
@@ -303,7 +336,8 @@ const menuList = [
     name: "Carrot-Halwa",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consectetur",
   },
   {
     id: 36,
@@ -312,7 +346,8 @@ const menuList = [
     name: "Aata-halwa",
     category: "dessert",
     price: 100,
-    description: "Lorem iosum dolor sit amet consectetur adir",
+    description: "Lorem iosum dolor sit amet consectetur adir Lorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adirLorem iosum dolor sit amet consectetur adir",
+    shortdescription: "Lorem iosum dolor sit amet consect sit",
   },
 ];
 

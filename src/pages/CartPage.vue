@@ -40,7 +40,7 @@
     </div>
     <div class="col-12 text-center  q-pa-md q-my-md">
       <transition appear enter-active-class="animated slower zoomIn" leave-active-class="zoomOut">
-        <q-btn push rounded dense color="green" class="q-pa-md text-weight-bold shadow-7" label="Proceed To Payment"
+        <q-btn push rounded dense color="green" class="q-pa-md text-weight-bold shadow-7" label="Proceed To Buy"
           size="12px" :disable="!cartItem.length" @click="paymentHandler" />
       </transition>
     </div>
@@ -129,12 +129,6 @@ const rows = computed(() => cartItem.map((item, index) => ({
 })));
 
 const paymentHandler = () => {
-  Swal.fire({
-    title: 'Payment Done successful!',
-    icon: 'success',
-    showConfirmButton: false,
-    timer: 1500
-  });
   router.push('/payment');
 }
 

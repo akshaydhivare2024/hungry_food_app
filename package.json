@@ -10,16 +10,20 @@
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
-    "build": "quasar build"
+    "build": "quasar build",
+    "android": "quasar dev -m capacitor -T android"
   },
   "dependencies": {
     "@capacitor/app": "^6.0.0",
     "@capacitor/filesystem": "^6.0.0",
     "@fawmi/vue-google-maps": "^0.9.79",
     "@quasar/extras": "^1.16.4",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
     "axios": "^1.6.8",
     "html2canvas": "^1.4.1",
     "html2pdf.js": "^0.10.1",
+    "leaflet": "^1.9.4",
     "pdfmake": "^0.2.10",
     "pinia": "^2.1.7",
     "quasar": "^2.8.0",

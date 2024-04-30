@@ -6,7 +6,12 @@ const useCartStore = defineStore('cart', () => {
 
   const addCart = ref([]);
 
+  const pageloading = ref(true);
+
   const showMenubar = ref(false);
+  const loading = ref(true);
+  const detailLoading = ref(true);
+
 
   function updateTotalAmount() {
     totalAmount.value = addCart.value.reduce((total, item) => total + item.price, 0);
@@ -22,7 +27,7 @@ const useCartStore = defineStore('cart', () => {
 
 
 
-  return { addCart, removeCart, totalAmount, updateTotalAmount, showMenubar };
+  return { addCart, removeCart, totalAmount, updateTotalAmount, pageloading, showMenubar, detailLoading, loading };
 
 
 })

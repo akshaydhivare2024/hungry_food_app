@@ -3,7 +3,6 @@
   "appName": "Quasar App",
   "webDir": "www",
   "server": {
-    "androidScheme": "https",
-    "url": "http://192.168.34.218:9500"
+    "androidScheme": "https"
   }
 }

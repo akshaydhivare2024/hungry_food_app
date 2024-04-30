@@ -20,13 +20,27 @@
         </transition>
       </div>
     </div>
-    <div class="col-md-12">
-      <GMapMap :center="center" :zoom="12" map-type-id="terrain" style="width: 100%; height: 400px;"></GMapMap>
+    <div class="col-md-12 ">
+      <div id="map" class="map " style="border-radius: 10px"></div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
+
+onMounted(() => {
+  // Initialize the map
+  const map = L.map('map').setView([19.1367, 72.8486], 13); // Jogeshwari coordinates
+
+  // Add OpenStreetMap tile layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href=" https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+});
+
 const contactDetail = [
   {
     icon: 'email',
@@ -54,5 +68,12 @@ const contactDetail = [
   border-radius: 30px;
   width: 250px;
   text-align: center;
+}
+
+.map {
+  height: 400px;
+  /* Adjust height as needed */
+  width: 100%;
+  /* Adjust width as needed */
 }
 </style>
